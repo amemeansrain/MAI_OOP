@@ -2,10 +2,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch MAI_OOP (GDB)",
+            "name": "Launch MAI-OOP (GDB)",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/MAI_OOP",
+            "program": "${workspaceFolder}/build/${fileDirnameBasename}/${fileDirnameBasename}",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
